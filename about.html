@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bath Spa University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    
+      <!--Header Menu-->
+      <section class="s-header">
+        <nav>
+            <a href="index.html"><img src="images/image2logo.png" width=190px height=80px></a>
+            <div class="nav-bar" id="navbar">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!--About Us (content)-->
+    <section class="abt-us">
+        <div class="row">
+            <div class="abt-col">
+                <h1>About Bath Spa University RAK</h1>
+                <p>Bath Spa University Academic Centre RAK under the direct quality assurance of the UK campus has an established reputation for courses that offer high-quality teaching across a range of disciplines and areas. The University continuously embarks on Creativity, Culture, and Enterprise and offers an innovative and up-to-date curriculum that meets the needs of industry and the students.
+                Under the Chairmanship of His Excellency Dr. Sheikh Majid Bin Saeed Al Nuaimi, Chairman Ruler’s Court Ajman, Bath Spa University Academic Centre in Ras Al Khaimah, United Arab Emirates ensures world-class education right here in the UAE. Explore your passions, follow your dreams and gain skills that help you level up your career. Our University provides you complete support and creates an environment where you will explore your creativity enhanced by enterprise fit for a modern world.</p>
+                <a href="" class="e-btn">Explore</a>
+            </div>
+            <div class="abt-col">
+                <img src="images/image3.jpg">
+            </div>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <section class="footer">
+        <h4>About BSU</h4>
+        <p>Bath Spa University, United Kingdom shall solely administer the issuance of degree and mark sheets. | Bath Spa University UK meets all desired requirements for foreign degree attestations. | Bath Spa University Academic Centre RAK is licensed by the Ras Al Khaimah Economic Zone (RAKEZ) to operate as an International Higher Education Institution in RAKEZ Academic Zone. Bath Spa University Academic Centre RAK bears no responsibility for MoE - CAA degree attestation or degree equivalence. <br> | All rights are reserved by RAKEZ Future Education World FZ LLC Academic Centre of Bath Spa University in Ras Al Khaimah, United Arab Emirates.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!--JavaScript-->
+    <script>
+        var navbar = document.getElementById("navbar");
+        function showMenu() {
+            navbar.style.right = "0";
+        }
+        function hideMenu() {
+            navbar.style.right = "-200";
+        }
+    </script>
+    
+</body>
+</html>

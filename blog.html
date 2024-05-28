@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bath Spa University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <!--Header Menu-->
+    <section class="s-header">
+        <nav>
+            <a href="index.html"><img src="images/image2logo.png" width=190px height=80px></a>
+            <div class="nav-bar" id="navbar">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Online Programs for 2024</h1>
+    </section>
+
+    <!--Page Content-->
+    <section class="blog-c">
+        <div class="rows">
+            <div class="b-left">
+                <img src="images/image5.jpg">
+                <h2>Available Programs</h2>
+                <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch "Jeopardy!", Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz.</p>
+                <br>
+                <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch "Jeopardy!", Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz.</p>
+                
+                <div class="fb">
+                        <h3>Feedbacks</h3>
+                        <form class="l-fb">
+                                <input type="text" placeholder="Leave a comment">
+                                <input type="text" placeholder="Leave suggestions (if any)">
+                                <button type="submit" class="e-btn">POST FEEDBACK</button>
+                        </form>
+                </div>
+
+            </div>
+            <div class="b-right">
+                <h3>Categories</h3>
+                <div>
+                    <span>Cybersecurity</span>
+                    <span>1234</span>
+                </div>
+                <div>
+                    <span>Computers</span>
+                    <span>1234</span>
+                </div>
+                <div>
+                    <span>Business</span>
+                    <span>1234</span>
+                </div>
+                <div>
+                    <span>Multimedia</span>
+                    <span>1234</span>
+                </div>
+                <div>
+                    <span>Psychology</span>
+                    <span>1234</span>
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+    <!--Footer-->
+    <section class="footer">
+        <h4>About BSU</h4>
+        <p>Bath Spa University, United Kingdom shall solely administer the issuance of degree and mark sheets. | Bath Spa University UK meets all desired requirements for foreign degree attestations. | Bath Spa University Academic Centre RAK is licensed by the Ras Al Khaimah Economic Zone (RAKEZ) to operate as an International Higher Education Institution in RAKEZ Academic Zone. Bath Spa University Academic Centre RAK bears no responsibility for MoE - CAA degree attestation or degree equivalence. <br> | All rights are reserved by RAKEZ Future Education World FZ LLC Academic Centre of Bath Spa University in Ras Al Khaimah, United Arab Emirates.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!--JavaScript-->
+    <script>
+        var navbar = document.getElementById("navbar");
+        function showMenu() {
+            navbar.style.right = "0";
+        }
+        function hideMenu() {
+            navbar.style.right = "-200";
+        }
+    </script>
+    
+</body>
+</html>
